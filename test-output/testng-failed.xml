@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.sportsGuru.ListenerClass"/>
+  </listeners>
+  <test thread-count="1" name="TestCase_Nexus_5X_API_22_Lollipop(failed)">
+    <classes>
+      <class name="com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TearDown"/>
+          <include name="Nexus_5X_API_22_Lollipop"/>
+        </methods>
+      </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop -->
+    </classes>
+  </test> <!-- TestCase_Nexus_5X_API_22_Lollipop(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" thread-count="1">
+
+	<listeners>
+		<listener class-name="com.sportsGuru.ListenerClass" />
+	</listeners>
+
+<test name="TestCase_1">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop" />
+		</classes>
+	</test>
+
+	<test name="TestCase_2">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop" />
+		</classes>
+	</test>
+
+<test name="TestCase_3">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow" />
+		</classes>
+	</test>
+	<test name="TestCase_4">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat" />
+		</classes>
+	</test>
+</suite> 
