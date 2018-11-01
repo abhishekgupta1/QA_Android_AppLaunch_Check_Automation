@@ -28,4 +28,26 @@
 			<class name="com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat" />
 		</classes>
 	</test>
+	
+	<test name="TestCase_5">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat" />
+		</classes>
+	</test>
+	<test name="TestCase_6">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo" />
+		</classes>
+	</test>
+	<test name="TestCase_7">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo" />
+		</classes>
+	</test>
+	<test name="TestCase_8">
+		<classes>
+			<class name="com.sportsGuru.TestCase_Nexus_5X_API_28_Pie" />
+		</classes>
+	</test>
+	
 </suite> 

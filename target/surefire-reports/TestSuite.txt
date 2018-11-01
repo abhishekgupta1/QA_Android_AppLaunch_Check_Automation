@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 277.949 sec - in TestSuite
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 496.813 sec <<< FAILURE! - in TestSuite
+SetUp(com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo)  Time elapsed: 68.383 sec  <<< FAILURE!
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo.SetUp(TestCase_Nexus_5X_API_27_Oreo.java:36)
+
+Nexus_5X_API_28_Pie(com.sportsGuru.TestCase_Nexus_5X_API_28_Pie)  Time elapsed: 57.083 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.sportsGuru.TestCase_Nexus_5X_API_28_Pie.Nexus_5X_API_28_Pie(TestCase_Nexus_5X_API_28_Pie.java:55)
+

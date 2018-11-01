@@ -33,16 +33,16 @@ public boolean BaseClassAssert(String udid,String adb,String xmlStoragePath,Stri
 		Runtime.getRuntime().exec(adb+" -s "+udid+" install "+LocationOfTheAppFolder+"/"+ApplicationName.get(0));
 		
 	Runtime.getRuntime().exec(adb+" -s "+udid+" shell am force-stop com.dream11sportsguru");
-	System.out.println("Package Stopped for "+udid);
+//	System.out.println("Package Stopped for "+udid);
 	Thread.sleep(5000);
 	Runtime.getRuntime().exec(adb+" -s "+udid+" shell am start -n com.dream11sportsguru/com.dream11sportsguru.MainActivity");
-	System.out.println("Activity Started for "+udid);
+//	System.out.println("Activity Started for "+udid);
 	Thread.sleep(30000);
 	Runtime.getRuntime().exec(adb+" -s "+udid+" shell uiautomator dump");
-	System.out.println("dumping the xml file "+udid);
+//	System.out.println("dumping the xml file "+udid);
 	Thread.sleep(5000);
 	Runtime.getRuntime().exec(adb+" -s "+udid+" pull /mnt/sdcard/window_dump.xml "+xmlStoragePath);
-	System.out.println("pulling the xml file "+udid);
+//	System.out.println("pulling the xml file "+udid);
 	Thread.sleep(5000);
 	}catch (InterruptedException e) {
 	
@@ -56,7 +56,7 @@ public boolean BaseClassAssert(String udid,String adb,String xmlStoragePath,Stri
     } 
    if(value.contains(CompareString))
     {
-	   System.out.println("Assert Passed on " + udid +" From Class LaunchTheAppAndVerify1");
+//	   System.out.println("Assert Passed on " + udid +" From Class LaunchTheAppAndVerify1");
 	   AssertValue = true;
 	   
     }

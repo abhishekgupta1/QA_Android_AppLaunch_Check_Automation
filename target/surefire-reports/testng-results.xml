@@ -1,73 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="1" failed="1" ignored="0" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="274397" started-at="2018-10-31T16:20:14Z" finished-at="2018-10-31T16:24:49Z">
+  <suite name="Suite" duration-ms="493084" started-at="2018-10-31T21:48:20Z" finished-at="2018-10-31T21:56:33Z">
     <groups>
     </groups>
-    <test name="TestCase_1" duration-ms="65247" started-at="2018-10-31T16:20:14Z" finished-at="2018-10-31T16:21:19Z">
+    <test name="TestCase_1" duration-ms="65250" started-at="2018-10-31T21:48:20Z" finished-at="2018-10-31T21:49:25Z">
       <class name="com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop@340f438e]" name="SetUp" is-config="true" duration-ms="10067" started-at="2018-10-31T16:20:14Z" finished-at="2018-10-31T16:20:24Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop@340f438e]" name="SetUp" is-config="true" duration-ms="10074" started-at="2018-10-31T21:48:20Z" finished-at="2018-10-31T21:48:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Nexus_5X_API_21_Lollipop()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop@340f438e]" name="Nexus_5X_API_21_Lollipop" duration-ms="55144" started-at="2018-10-31T16:20:24Z" finished-at="2018-10-31T16:21:19Z">
+        <test-method status="PASS" signature="Nexus_5X_API_21_Lollipop()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop@340f438e]" name="Nexus_5X_API_21_Lollipop" duration-ms="55139" started-at="2018-10-31T21:48:30Z" finished-at="2018-10-31T21:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Nexus_5X_API_21_Lollipop -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop@340f438e]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T16:21:19Z" finished-at="2018-10-31T16:21:19Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop@340f438e]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T21:49:25Z" finished-at="2018-10-31T21:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop -->
     </test> <!-- TestCase_1 -->
-    <test name="TestCase_2" duration-ms="65055" started-at="2018-10-31T16:21:25Z" finished-at="2018-10-31T16:22:30Z">
+    <test name="TestCase_2" duration-ms="65057" started-at="2018-10-31T21:49:32Z" finished-at="2018-10-31T21:50:37Z">
       <class name="com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop@21bcffb5]" name="SetUp" is-config="true" duration-ms="10011" started-at="2018-10-31T16:21:25Z" finished-at="2018-10-31T16:21:35Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop@21bcffb5]" name="SetUp" is-config="true" duration-ms="10016" started-at="2018-10-31T21:49:32Z" finished-at="2018-10-31T21:49:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Nexus_5X_API_22_Lollipop()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop@21bcffb5]" name="Nexus_5X_API_22_Lollipop" duration-ms="55032" started-at="2018-10-31T16:21:35Z" finished-at="2018-10-31T16:22:30Z">
+        <test-method status="PASS" signature="Nexus_5X_API_22_Lollipop()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop@21bcffb5]" name="Nexus_5X_API_22_Lollipop" duration-ms="55031" started-at="2018-10-31T21:49:42Z" finished-at="2018-10-31T21:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Nexus_5X_API_22_Lollipop -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop@21bcffb5]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T16:22:30Z" finished-at="2018-10-31T16:22:30Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop@21bcffb5]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T21:50:37Z" finished-at="2018-10-31T21:50:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop -->
     </test> <!-- TestCase_2 -->
-    <test name="TestCase_3" duration-ms="65056" started-at="2018-10-31T16:22:38Z" finished-at="2018-10-31T16:23:43Z">
+    <test name="TestCase_3" duration-ms="65054" started-at="2018-10-31T21:50:37Z" finished-at="2018-10-31T21:51:42Z">
       <class name="com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow@6b2fad11]" name="SetUp" is-config="true" duration-ms="10012" started-at="2018-10-31T16:22:38Z" finished-at="2018-10-31T16:22:48Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow@6b2fad11]" name="SetUp" is-config="true" duration-ms="10011" started-at="2018-10-31T21:50:37Z" finished-at="2018-10-31T21:50:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Nexus_5X_API_23_Marshmallow()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow@6b2fad11]" name="Nexus_5X_API_23_Marshmallow" duration-ms="55032" started-at="2018-10-31T16:22:48Z" finished-at="2018-10-31T16:23:43Z">
+        <test-method status="PASS" signature="Nexus_5X_API_23_Marshmallow()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow@6b2fad11]" name="Nexus_5X_API_23_Marshmallow" duration-ms="55031" started-at="2018-10-31T21:50:47Z" finished-at="2018-10-31T21:51:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Nexus_5X_API_23_Marshmallow -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow@6b2fad11]" name="TearDown" is-config="true" duration-ms="11" started-at="2018-10-31T16:23:43Z" finished-at="2018-10-31T16:23:43Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow@6b2fad11]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T21:51:42Z" finished-at="2018-10-31T21:51:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow -->
     </test> <!-- TestCase_3 -->
-    <test name="TestCase_4" duration-ms="65063" started-at="2018-10-31T16:23:43Z" finished-at="2018-10-31T16:24:49Z">
+    <test name="TestCase_4" duration-ms="65058" started-at="2018-10-31T21:51:48Z" finished-at="2018-10-31T21:52:53Z">
       <class name="com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat@26ba2a48]" name="SetUp" is-config="true" duration-ms="10015" started-at="2018-10-31T16:23:43Z" finished-at="2018-10-31T16:23:53Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat@26ba2a48]" name="SetUp" is-config="true" duration-ms="10012" started-at="2018-10-31T21:51:48Z" finished-at="2018-10-31T21:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="Nexus_5X_API_24_gplay_Nougat()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat@26ba2a48]" name="Nexus_5X_API_24_gplay_Nougat" duration-ms="55038" started-at="2018-10-31T16:23:53Z" finished-at="2018-10-31T16:24:48Z">
+        <test-method status="PASS" signature="Nexus_5X_API_24_gplay_Nougat()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat@26ba2a48]" name="Nexus_5X_API_24_gplay_Nougat" duration-ms="55034" started-at="2018-10-31T21:51:58Z" finished-at="2018-10-31T21:52:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Nexus_5X_API_24_gplay_Nougat -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat@26ba2a48]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T16:24:48Z" finished-at="2018-10-31T16:24:49Z">
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat@26ba2a48]" name="TearDown" is-config="true" duration-ms="11" started-at="2018-10-31T21:52:53Z" finished-at="2018-10-31T21:52:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat -->
     </test> <!-- TestCase_4 -->
+    <test name="TestCase_5" duration-ms="65060" started-at="2018-10-31T21:52:58Z" finished-at="2018-10-31T21:54:03Z">
+      <class name="com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat@17550481]" name="SetUp" is-config="true" duration-ms="10014" started-at="2018-10-31T21:52:58Z" finished-at="2018-10-31T21:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Nexus_5X_API_25_Nougat()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat@17550481]" name="Nexus_5X_API_25_Nougat" duration-ms="55035" started-at="2018-10-31T21:53:08Z" finished-at="2018-10-31T21:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nexus_5X_API_25_Nougat -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat@17550481]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T21:54:03Z" finished-at="2018-10-31T21:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat -->
+    </test> <!-- TestCase_5 -->
+    <test name="TestCase_6" duration-ms="65083" started-at="2018-10-31T21:54:08Z" finished-at="2018-10-31T21:55:13Z">
+      <class name="com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo@5315b42e]" name="SetUp" is-config="true" duration-ms="10014" started-at="2018-10-31T21:54:08Z" finished-at="2018-10-31T21:54:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Nexus_5X_API_26_Oreo()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo@5315b42e]" name="Nexus_5X_API_26_Oreo" duration-ms="55057" started-at="2018-10-31T21:54:18Z" finished-at="2018-10-31T21:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nexus_5X_API_26_Oreo -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo@5315b42e]" name="TearDown" is-config="true" duration-ms="10" started-at="2018-10-31T21:55:13Z" finished-at="2018-10-31T21:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo -->
+    </test> <!-- TestCase_6 -->
+    <test name="TestCase_7" duration-ms="10029" started-at="2018-10-31T21:55:16Z" finished-at="2018-10-31T21:55:26Z">
+      <class name="com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo">
+        <test-method status="FAIL" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo@6fb554cc]" name="SetUp" is-config="true" duration-ms="10020" started-at="2018-10-31T21:55:16Z" finished-at="2018-10-31T21:55:26Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+at java.util.ArrayList.get(ArrayList.java:433)
+at com.sportsGuru.ConfigFileReaderMethods.getDevicesFromADB(ConfigFileReaderMethods.java:50)
+at com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo.SetUp(TestCase_Nexus_5X_API_27_Oreo.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="SKIP" signature="Nexus_5X_API_27_Oreo()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo@6fb554cc]" name="Nexus_5X_API_27_Oreo" duration-ms="0" started-at="2018-10-31T21:55:26Z" finished-at="2018-10-31T21:55:26Z">
+          <exception class="java.lang.IndexOutOfBoundsException">
+            <message>
+              <![CDATA[Index: 0, Size: 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+at java.util.ArrayList.rangeCheck(ArrayList.java:657)
+at java.util.ArrayList.get(ArrayList.java:433)
+at com.sportsGuru.ConfigFileReaderMethods.getDevicesFromADB(ConfigFileReaderMethods.java:50)
+at com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo.SetUp(TestCase_Nexus_5X_API_27_Oreo.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nexus_5X_API_27_Oreo -->
+        <test-method status="SKIP" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo@6fb554cc]" name="TearDown" is-config="true" duration-ms="0" started-at="2018-10-31T21:55:26Z" finished-at="2018-10-31T21:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo -->
+    </test> <!-- TestCase_7 -->
+    <test name="TestCase_8" duration-ms="67116" started-at="2018-10-31T21:55:26Z" finished-at="2018-10-31T21:56:33Z">
+      <class name="com.sportsGuru.TestCase_Nexus_5X_API_28_Pie">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_28_Pie@15975490]" name="SetUp" is-config="true" duration-ms="10017" started-at="2018-10-31T21:55:26Z" finished-at="2018-10-31T21:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="Nexus_5X_API_28_Pie()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_28_Pie@15975490]" name="Nexus_5X_API_28_Pie" duration-ms="57082" started-at="2018-10-31T21:55:36Z" finished-at="2018-10-31T21:56:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.sportsGuru.TestCase_Nexus_5X_API_28_Pie.Nexus_5X_API_28_Pie(TestCase_Nexus_5X_API_28_Pie.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:282)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:83)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:114)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:286)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:240)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nexus_5X_API_28_Pie -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.sportsGuru.TestCase_Nexus_5X_API_28_Pie@15975490]" name="TearDown" is-config="true" duration-ms="9" started-at="2018-10-31T21:56:33Z" finished-at="2018-10-31T21:56:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.sportsGuru.TestCase_Nexus_5X_API_28_Pie -->
+    </test> <!-- TestCase_8 -->
   </suite> <!-- Suite -->
 </testng-results>
