@@ -1,7 +1,6 @@
 # QA Android AppLaunch Check Automation
 
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
+## Project Structure
 ![Image1 from the project folder](https://github.com/abhishekgupta1/QA_Android_AppLaunch_Check_Automation/blob/master/Images/Image1.png)
 
 ## Prerequisites
