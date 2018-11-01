@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="496.813" tests="10" errors="0" skipped="2" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="491.406" tests="10" errors="0" skipped="2" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib"/>
@@ -63,13 +63,23 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Nexus_5X_API_21_Lollipop" classname="com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop" time="55.139"/>
-  <testcase name="Nexus_5X_API_22_Lollipop" classname="com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop" time="55.031"/>
-  <testcase name="Nexus_5X_API_23_Marshmallow" classname="com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow" time="55.032"/>
-  <testcase name="Nexus_5X_API_24_gplay_Nougat" classname="com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat" time="55.033"/>
-  <testcase name="Nexus_5X_API_25_Nougat" classname="com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat" time="55.036"/>
-  <testcase name="Nexus_5X_API_26_Oreo" classname="com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo" time="55.057"/>
-  <testcase name="SetUp" classname="com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo" time="68.383">
+  <testcase name="Nexus_5X_API_21_Lollipop" classname="com.sportsGuru.TestCase_Nexus_5X_API_21_Lollipop" time="55.041"/>
+  <testcase name="Nexus_5X_API_22_Lollipop" classname="com.sportsGuru.TestCase_Nexus_5X_API_22_Lollipop" time="55.032"/>
+  <testcase name="Nexus_5X_API_23_Marshmallow" classname="com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow" time="57.058">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.sportsGuru.TestCase_Nexus_5X_API_23_Marshmallow.Nexus_5X_API_23_Marshmallow(TestCase_Nexus_5X_API_23_Marshmallow.java:55)
+</failure>
+    <system-out><![CDATA[Emulator : Nexus_5X_API_22_Lollipop is Stoped true
+Emulator : Nexus_5X_API_23_Marshmallow is up and running
+Assert failed onemulator-5554 and its Failing on the version 6.0
+from this
+/Users/dream11/Documents/QA_Android_AppLaunch_Check_Automation/ScreenShots/timeStamp2018.11.01.12.49.17.png
+]]></system-out>
+  </testcase>
+  <testcase name="Nexus_5X_API_24_gplay_Nougat" classname="com.sportsGuru.TestCase_Nexus_5X_API_24_gplay_Nougat" time="55.037"/>
+  <testcase name="Nexus_5X_API_25_Nougat" classname="com.sportsGuru.TestCase_Nexus_5X_API_25_Nougat" time="55.038"/>
+  <testcase name="Nexus_5X_API_26_Oreo" classname="com.sportsGuru.TestCase_Nexus_5X_API_26_Oreo" time="55.023"/>
+  <testcase name="SetUp" classname="com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo" time="65.088">
     <failure message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
 	at com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo.SetUp(TestCase_Nexus_5X_API_27_Oreo.java:36)
 </failure>
@@ -83,13 +93,5 @@ Emulator : Nexus_5X_API_27 is up and running
   <testcase name="TearDown" classname="com.sportsGuru.TestCase_Nexus_5X_API_27_Oreo" time="0">
     <skipped/>
   </testcase>
-  <testcase name="Nexus_5X_API_28_Pie" classname="com.sportsGuru.TestCase_Nexus_5X_API_28_Pie" time="57.083">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at com.sportsGuru.TestCase_Nexus_5X_API_28_Pie.Nexus_5X_API_28_Pie(TestCase_Nexus_5X_API_28_Pie.java:55)
-</failure>
-    <system-out><![CDATA[Emulator : Nexus_5X_API_28 is up and running
-Assert failed onemulator-5554 and its Failing on the version 8.1.0
-from this
-]]></system-out>
-  </testcase>
+  <testcase name="Nexus_5X_API_28_Pie" classname="com.sportsGuru.TestCase_Nexus_5X_API_28_Pie" time="55.035"/>
 </testsuite>
