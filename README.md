@@ -2,7 +2,7 @@
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
-![Image1 from the project folder](../Images/Image1.png)
+![Image1 from the project folder](https://github.com/abhishekgupta1/QA_Android_AppLaunch_Check_Automation/blob/master/Images/Image1.png)
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
  1. Copy any file from the `/src/test/java/com/sportsGuru` which is the testcase pacakge
  2. Enter the desired Name of the TestCase or follow the convention `TestCase_NameofYourEmulator`
- 3. Follow the nameing convetion from the below image ![TestCase_Template](../Images/Image2.png)
+ 3. Follow the nameing convetion from the below image ![TestCase_Template](https://github.com/abhishekgupta1/QA_Android_AppLaunch_Check_Automation/blob/master/Images/Image2.png)
 
 ## 3. Insert the TestClass in the testng.xml
 
