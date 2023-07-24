@@ -1,10 +1,5 @@
 # QA Android AppLaunch Check Automation
 
-<<<<<<< HEAD
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-
-![Image1 from the project folder](../Images/Image1.png)
-
 ## Prerequisites
 
  - Android Studio
@@ -12,7 +7,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 # Steps for the Setup
 ## 1. Setting up the Emulator
- 1. Create an Emulator in the Android Studio with the helo of AVD Manager
+ 1. Create an Emulator in the Android Studio with the help of AVD Manager
  2. Open the Terminal and Hit below command
 		```
 		cd ~/Library/Android/sdk/emulator
