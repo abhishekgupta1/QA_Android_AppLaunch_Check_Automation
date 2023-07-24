@@ -62,7 +62,6 @@
  1. Copy any file from the `/src/test/java/com/sportsGuru` which is the testcase pacakge
  2. Enter the desired Name of the TestCase or follow the convention `TestCase_NameofYourEmulator`
  3. Follow the nameing convetion from the below image ![TestCase_Template](https://github.com/abhishekgupta1/QA_Android_AppLaunch_Check_Automation/blob/master/Images/Image2.png)
->>>>>>> 0ebd7f92a4ca37cd853e60cd92baef8fb56395c0
 
 ## 3. Insert the TestClass in the testng.xml
 
@@ -77,12 +76,6 @@
 ## 4.Set the config file
 
 ```
-=======
-```
-## 4.Set the config file
-
-```
->>>>>>> 0ebd7f92a4ca37cd853e60cd92baef8fb56395c0
 adbPath =/Users/{/AndroidSdk}/platform-tools/adb
 
 appPackage=com.dream11sportsguru <<==={Your .apk Package Name}
@@ -90,8 +83,4 @@ appPackage=com.dream11sportsguru <<==={Your .apk Package Name}
 appActivity=com.dream11sportsguru.MainActivity <<==={Your .apk activity Name}
 folderPathWhereApplicationJunkFileWillBeStored={Any Location of your choice we have created inside the project folder}/window_dump.xml
 
-<<<<<<< HEAD
-StringToCheckOntheHomePage=article <<==={Unique work as an assert}
-=======
-StringToCheckOntheHomePage=article <<==={Unique work as an assert}
->>>>>>> 0ebd7f92a4ca37cd853e60cd92baef8fb56395c0
+```
